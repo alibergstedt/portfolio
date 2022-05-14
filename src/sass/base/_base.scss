@@ -1,0 +1,25 @@
+html {
+  font-size: 62.5%;
+
+  &.sr .load-hidden {
+    visibility: hidden;
+  }
+}
+
+.container {
+  padding-left: 7em;
+  padding-right: 7em;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.rounded img {
+  border-radius: .75rem;
+}
+
+.rounded {
+  border-radius: .75rem !important;
+}
