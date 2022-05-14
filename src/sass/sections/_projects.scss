@@ -18,6 +18,7 @@
 
     .row {
       margin-bottom: 8rem;
+      padding-top: 3em;
 
       @include respond(phone) {
         margin-bottom: 4rem;
@@ -71,6 +72,36 @@
           border: 1px solid $light-grey;
           box-shadow: none;
           margin-bottom: 3.2rem;
+        }
+      }
+    }
+
+    .project-sub {
+      align-items: flex-start;
+      margin: 8rem 12rem;
+
+      @include respond(phone) {
+        margin: 0rem;
+      }
+
+      .col {
+        margin: 3rem;
+      }
+
+      &__text {
+        text-align: left;
+  
+        @include respond(phone) {
+          margin-bottom: 2.5rem !important;
+        }
+        @include respond(tab-land) {
+          margin-bottom: 4.8rem;
+        }
+  
+        &-title {
+          font-weight: bold;
+          margin-bottom: 1.8rem;
+          font-size: 2rem;
         }
       }
     }

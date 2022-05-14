@@ -1,3 +1,6 @@
+$modal-content-bg:                  null !default;
+$modal-content-border-color:        transparent !default;
+
 html {
   font-size: 62.5%;
 
@@ -9,6 +12,11 @@ html {
 .container {
   padding-left: 7em;
   padding-right: 7em;
+
+  @include respond(phone) {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 }
 
 body {
