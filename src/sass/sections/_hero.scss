@@ -67,7 +67,6 @@
   }
 
   .hero-img {
-    background-image: url('./assets/top-tier-stonework-hero.png');
     animation: zoom 20s;
     background-position: center center;
     background-size: cover;
@@ -75,27 +74,17 @@
     height: 70vh;
     width: 100%;
     background-repeat: no-repeat no-repeat;
-  }
 
-  .cloudcme-hero-img {
-    background-image: url('./assets/cloudcme/cloudcme-hero.png');
-    animation: zoom 20s;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
-    height: 70vh;
-    width: 100%;
-    background-repeat: no-repeat no-repeat;
-  }
+    &__top-tier {
+      background-image: url('./assets/top-tier-stonework-hero.png');
+    }
 
-  .food-delivery-hero-img {
-    background-image: url('./assets/figma/food-delivery-hero.png');
-    animation: zoom 20s;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
-    height: 70vh;
-    width: 100%;
-    background-repeat: no-repeat no-repeat;
+    &__cloudcme {
+      background-image: url('./assets/cloudcme/cloudcme-hero.png');
+    }
+
+    &__food-delivery {
+      background-image: url('./assets/figma/food-delivery-hero.png');
+    }
   }
 }

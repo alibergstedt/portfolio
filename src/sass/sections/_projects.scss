@@ -6,7 +6,7 @@
 
   @include respond(tab-land) {
     margin-top: 0;
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
 
   .project-wrapper {
@@ -22,6 +22,7 @@
 
       @include respond(phone) {
         margin-bottom: 4rem;
+        padding-top: 0;
       }
     }
 
