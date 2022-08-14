@@ -7,7 +7,7 @@
   background: $white-color;
   font-weight: 400;
   color: $dark-blue-text;
-  padding: 0rem 5.6rem;
+  padding: 2rem 5.6rem 0 5.6rem;
   margin-bottom: 0;
   top: 0;
   left: 0;
@@ -64,5 +64,38 @@
         font-size: 2rem;
       }
     }
+  }
+
+  .hero-img {
+    background-image: url('./assets/top-tier-stonework-hero.png');
+    animation: zoom 20s;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat no-repeat;
+  }
+
+  .cloudcme-hero-img {
+    background-image: url('./assets/cloudcme/cloudcme-hero.png');
+    animation: zoom 20s;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat no-repeat;
+  }
+
+  .food-delivery-hero-img {
+    background-image: url('./assets/figma/food-delivery-hero.png');
+    animation: zoom 20s;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat no-repeat;
   }
 }

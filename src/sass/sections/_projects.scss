@@ -51,7 +51,7 @@
     }
 
     &__image {
-      width: 75%;
+      width: 100%;
       margin: 0 auto;
 
       @include respond(tab-land) {
@@ -78,7 +78,6 @@
 
     .project-sub {
       align-items: flex-start;
-      margin: 8rem 12rem;
 
       @include respond(phone) {
         margin: 0rem;
