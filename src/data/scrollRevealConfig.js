@@ -7,14 +7,6 @@ export const defaultProps = {
 };
 
 export const targetElements = [
-  // {
-  //   element: ".section-title",
-  //   animation: {
-  //     delay: 300,
-  //     distance: "0px",
-  //     origin: "bottom",
-  //   },
-  // },
   {
     element: ".hero-title",
     animation: {
@@ -36,18 +28,26 @@ export const targetElements = [
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
+  {
+    element: ".about-wrapper__image",
+    animation: {
+      delay: 20,
+      origin: "bottom",
+    },
+  },
+  {
+    element: ".about-wrapper__info",
+    animation: {
+      delay: 100,
+      origin: window.innerWidth > 768 ? "left" : "bottom",
+    },
+  },
   // {
-  //   element: ".about-wrapper__image",
+  //   element: ".section-title",
   //   animation: {
-  //     delay: 600,
+  //     delay: 20,
+  //     distance: "0px",
   //     origin: "bottom",
-  //   },
-  // },
-  // {
-  //   element: ".about-wrapper__info",
-  //   animation: {
-  //     delay: 1000,
-  //     origin: window.innerWidth > 768 ? "left" : "bottom",
   //   },
   // },
   // {
